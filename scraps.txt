@@ -30,3 +30,119 @@ Education:
 Bootcamp Certificate: UCF. Orlando, FL. 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.
 
 Bachelor’s Degree: Rollins College. Winter Park, FL. Acquired a degree in English Literature with a focus on writing, both professionally and creatively.
+
+
+    <div class="container2">
+      <div class="first">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, velit? Eum consectetur eligendi odio excepturi aspernatur voluptatibus magni et harum iure! Excepturi, illo vel mollitia vero quis maiores a? Officiis?</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, velit? Eum consectetur eligendi odio excepturi aspernatur voluptatibus magni et harum iure! Excepturi, illo vel mollitia vero quis maiores a? Officiis?</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, velit? Eum consectetur eligendi odio excepturi aspernatur voluptatibus magni et harum iure! Excepturi, illo vel mollitia vero quis maiores a? Officiis?</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, velit? Eum consectetur eligendi odio excepturi aspernatur voluptatibus magni et harum iure! Excepturi, illo vel mollitia vero quis maiores a? Officiis?</p>
+      </div>
+      <div class="second">
+        <div class="secA">A</div>
+        <div class="secB">B</div>
+      </div>
+    </div>
+  </body>
+
+
+  .container2 {
+    background-color: red;
+    display: flex;
+}
+
+.first {
+    flex: 1;
+}
+
+.second {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.secA {
+    background-color: blue;
+    flex: 1;
+}
+
+.secB {
+    background-color: green;
+    flex: 1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+nav {
+    flex: 1 0 100%;
+    height: 100px;
+    background-color: brown;
+}
+
+main {
+    border: 1px solid black;
+    flex: 1 0 45%;
+    margin: 10px;
+}
+
+section {
+    border: 1px solid black;
+    flex: 1 0 45%;
+    margin: 10px;
+}
+
+footer {
+    flex: 1 0 100%;
+    height: 100px;
+    background-color: brown;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main > .contact {
+    flex: 1;
+}
+
+.container2 {
+    background-color: red;
+    display: flex;
+}
+
+.first {
+    flex: 1;
+}
+
+.second {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.secA {
+    background-color: blue;
+    flex: 1;
+}
+
+.secB {
+    background-color: green;
+    flex: 1;
+}
