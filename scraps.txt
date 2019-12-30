@@ -1,0 +1,32 @@
+Sanjeev Chadeesingh
+Orlando, FL 32819
+(407)-760-6736 | sanjeev.chadeesingh@gmail.com
+https://www.linkedin.com/in/schadeesingh/ | https://github.com/Sanjeev-Chadeesingh  
+Portfolio: https://sanjeev-chadeesingh.github.io/portfolio/
+
+Summary:
+	Junior web developer interested in generating websites reflective of modern UX/UI design. Experience with oral and written communication, credentialed at collegiate level. Improving the dated styling of online policy resources is ideal; however, any front-end position in which genuine care for fellow community members is required  would be a privilege. 
+
+Technical Skills:
+Proficient:HTML/CSS+Flexbox+Grid/Bootstrap/Javascript. Intermediate:MYSQL, MongoDB, NodeJS, ExpressJS
+
+Projects:
+Ground-Up | https://github.com/jmrada14/Ground-up | https://ground-up-1.herokuapp.com/
+MERN Stack Application which provides users with local politicians’ voting records on 20 environmental bills, alongside a member section with updated contact information (including social media) of 500+ congress members.
+Responsible for idea,  front-end/ styling and informative content of application.
+
+Bar Finder | https://github.com/FayeLinks/Project1 | https://fayelinks.github.io/Project1/
+Front-End Application powered by Google Maps API. Application takes users’ location and makes AJAX calls for bars in clients’ area. Bars are appended to a table and separated by pricing and reviews via Yelp API.
+Responsible for idea and front-end/styling of application. 
+
+Karmazone|https://github.com/jcardenas0917/KarmaZone | https://guarded-fjord-14593.herokuapp.com/
+Full Stack Application powered by HTML/CSS/Bootstrap/JavaScript/jQuery/NodeJS/Express/ MySQL.
+Responsible for front-end/styling of application, input forms, and validating  pop-ups/modals.
+
+Experience:
+10 years as General Manager/ Owner of Retail Business: A&K Investments Company, a micro-business with 3-5 employees in the retail sector. Responsibilities: general bookkeeping, human resources, marketing/advertising and general management.
+
+Education:
+Bootcamp Certificate: UCF. Orlando, FL. 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.
+
+Bachelor’s Degree: Rollins College. Winter Park, FL. Acquired a degree in English Literature with a focus on writing, both professionally and creatively.
