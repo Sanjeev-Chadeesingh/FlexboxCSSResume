@@ -37,11 +37,9 @@ header {
 nav {
     background-color: blue;
     width: 65%;
-    flex: 1 1 auto;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     padding: 35px;
 }
 
