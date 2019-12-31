@@ -52,6 +52,60 @@ i {
    color: black;
 }
 
+.row1 {
+    background-color: blueviolet;
+    display: flex;
+}
+
+.summary {
+    background-color: green;
+    flex: 1;
+}
+
+aside {
+    background-color: red;
+}
+
+.row2 {
+    display: flex;
+}
+
+article {
+    background-color: brown;
+    flex: 1;
+}
+
+.row3 {
+    display: flex;
+}
+
+.experience {
+    flex: 1;
+    background-color: yellow;
+}
+
+.education {
+    background-color: purple;
+}
+
+footer {
+    background-color: rgb(51, 45, 9);
+    display: flex;
+    flex: 1 0 225px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* font-family: 'Ma Shan Zheng', cursive;
 font-family: 'Sedgwick Ave Display', cursive;
 font-family: 'Flavors', cursive;
