@@ -16,7 +16,6 @@ html, body {
 }
 
 header {
-    background-color: blue;
     flex: 1 0 95px;
     display: flex;
     flex-direction: column;
@@ -30,7 +29,6 @@ header {
 }
 
 nav {
-    background-color: blue;
     width: 65%;
     display: flex;
     flex-flow: row wrap;
@@ -48,52 +46,35 @@ i {
 }
 
 .infoText {
-    font-family: 'Rubik', sans-serif; 
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 22px; 
 }
 
 .summary {
-    background-color: green;
     padding: 15px;
     flex: 0 1 auto;
 }
 
 .skills {
-    background-color: red;
     padding: 15px;
     flex: 0 1 auto;
 }
 
 
 article {
-    background-color: brown;
     flex: 1 1 auto;
     padding: 15px;
 }
 
-.row3 {
-    display: flex;
-}
-
-.experience {
-    flex: 1 1 auto;
-    background-color: yellow;
-}
-
 .education {
-    background-color: purple;
     padding: 15px;
 }
 
 footer {
-    background-color: rgb(51, 45, 9);
     display: flex;
     justify-content: center;
     flex: 1 0 225px;
     padding: 15px;
-}
-
-.red {
-    color: red;
 }
 
 @media screen and (max-width: 450px) {
