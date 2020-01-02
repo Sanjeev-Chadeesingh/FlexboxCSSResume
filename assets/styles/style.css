@@ -3,8 +3,8 @@
 }
 
 html, body {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     background-image: url(../images/paper_1.png);
 }
 
@@ -57,7 +57,7 @@ i {
 
 .skills {
     padding: 15px;
-    flex: 0 1 auto;
+    flex: 0 2 auto;
 }
 
 
@@ -91,7 +91,7 @@ footer {
     .container {
         margin: 0 auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: column wrap;
          width: 95%;
     }
     
