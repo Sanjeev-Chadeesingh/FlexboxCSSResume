@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
-  <link
-  rel="shortcut icon"
-  type="image/png"
-  href="assets/images/black-pages-icon.png"
-/>
-<link
-  href="https://fonts.googleapis.com/css?family=Flavors|IM+Fell+DW+Pica+SC|Kirang+Haerang|Ma+Shan+Zheng|Rubik|Sedgwick+Ave+Display+Ubuntu+Kanit+Rubik&display=swap"
-  rel="stylesheet"
-/>
-<link
-  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-  rel="stylesheet"
-  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-  crossorigin="anonymous"
-/>
-  <title>FlexBoxResume</title>
-</head>
-<body>
-   <div class="container">
-       <div class="header">
-        <header>
-          <p class="headingText">Sanjeev Chadeesingh</p>
-          <p class="headingText">Orlando, FL 32819</p>
-        </header>
-       </div>
-       <div class="nav">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="assets/styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/images/black-pages-icon.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Flavors|IM+Fell+DW+Pica+SC|Kirang+Haerang|Ma+Shan+Zheng|Rubik|Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <title>FlexBoxResume</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p class="headingText">Sanjeev Chadeesingh</p>
+        <p class="headingText">Orlando, FL 32819</p>
+        <nav>
           <a href="mailto:sanjeev.chadeesingh@gmail.com" target="_blank"
             ><i class="fa fa-envelope fa-lg" aria-hidden="true"
               ><p class="contactText">email</p></i
@@ -49,37 +46,32 @@
               ><p class="contactText">portfolio</p></i
             ></a
           >
-       </div>
-       
-       <div class="summaryHeader">
-         <p class="titleText">Summary:</p>
-       </div>
+        </nav>
+      </header>
 
-       <div class="summary">
-         <p class="infoText">
-           Junior web developer interested in generating websites reflective of
-           modern UX/UI design. Experience with oral and written communication,
-           credentialed at collegiate level. Improving the dated styling of
-           online policy resources is ideal; however, any front-end position in
-           which genuine care for fellow community members is required would be a
-           privilege.
-         </p>
-       </div>
-       
-       <div class="skillsHeader">
-         <p class="titleText">Skills:</p>
-       </div>
-
-       <div class="skills">
-        <p class="infoText">PROFICIENT: HTML/CSS+Flexbox+Grid/Bootstrap/Javascript | INTERMEDIATE: MYSQL/MongoDB/NodeJS/ExpressJS
+      <section class="summary">
+        <p class="infoText">SUMMARY:</p>
+        <br>
+        <p class="infoText">
+          Junior web developer interested in generating websites reflective of
+          modern UX/UI design. Experience with oral and written communication,
+          credentialed at collegiate level. Improving the dated styling of
+          online policy resources is ideal; however, any front-end position in
+          which genuine care for fellow community members is required would be a
+          privilege.
         </p>
-       </div>
+      </section>
 
-       <div class="projectsHeader">
-         <p class="titleText">Projects:</p>
-       </div>
-       
-       <div class="projects">
+      <div class="skills">
+        <p class="infoText">SKILLS:</p>
+        <br>
+        <p class="infoText"> Proficient: HTML/CSS+Flexbox+Grid/Bootstrap/Javascript. Intermediate: MYSQL/MongoDB/NodeJS/ExpressJS
+        </p>
+      </div>
+
+      <article>
+        <p class="infoText">PROJECTS:</p>
+        <br>
         <p class="infoText">
           Ground-Up:
         </p>
@@ -115,18 +107,19 @@
           Responsible for front-end/styling of application, input forms, and
           validating pop-ups/modals.
         </p>
-       </div>
-       
-       <div class="education">
+      </article>
+
+      <section class="education">
         <p class="infoText">EDUCATION:</p>
+        <br>
           <p class="infoText">Bootcamp Certificate: UCF. Orlando, FL. 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.</p>
+          <br>
           <p class="infoText">Bachelor’s Degree: Rollins College. Winter Park, FL. Acquired a degree in English Literature with a focus on writing, both professionally and creatively.</p>
-       </div>
-       
-       <div class="footer">
+      </section>
+
+      <footer>
         <i class="fa fa-cog fa-4x fa-spin" aria-hidden="true"></i>
-       </div>
-   
-    </div> 
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
