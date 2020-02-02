@@ -68,3 +68,12 @@ i {
     font-family: 'Rubik', sans-serif;
      font-size: 18px; 
  }
+
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .linkText {
+    font-family: 'IM Fell DW Pica SC', serif; 
+ }
