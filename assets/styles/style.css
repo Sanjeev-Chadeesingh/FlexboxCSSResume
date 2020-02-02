@@ -19,37 +19,31 @@ html {
 .header {
     padding: 10px;
     margin: 10px;
-    border: 1px solid black;
 }
 
 .nav {
     padding: 10px;
     margin: 10px;
-    border: 1px solid black;
 }
 
 .summary {
     padding: 10px;
     margin: 10px;
-    border: 1px solid black;
 }
 
 .skills {
     padding: 10px;
     margin: 10px;
-    border: 1px solid black;
 }
 
 .projects {
     padding: 10px;
-    margin: 10px;
-    border: 1px solid black; 
+    margin: 10px; 
 }
 
 .education {
     padding: 10px;
-    margin: 10px;
-    border: 1px solid black; 
+    margin: 10px; 
 }
 
 
