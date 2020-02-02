@@ -232,3 +232,130 @@ footer {
     font-size: 32px;
     font-family: sans-serif;
 }
+
+  <div class="header">
+        <header>
+
+        </header>
+       </div>
+
+       
+       <div class="summaryHeader">
+         <p class="titleText">Summary:</p>
+       </div>
+
+       <div class="summary">
+         <p class="infoText">
+           Junior web developer interested in generating websites reflective of
+           modern UX/UI design. Experience with oral and written communication,
+           credentialed at collegiate level. Improving the dated styling of
+           online policy resources is ideal; however, any front-end position in
+           which genuine care for fellow community members is required would be a
+           privilege.
+         </p>
+       </div>
+       
+       <div class="skillsHeader">
+         <p class="titleText">Skills:</p>
+       </div>
+
+       <div class="skills">
+        <p class="infoText">PROFICIENT: HTML/CSS+Flexbox+Grid/Bootstrap/Javascript | INTERMEDIATE: MYSQL/MongoDB/NodeJS/ExpressJS
+        </p>
+       </div>
+
+       <div class="projectsHeader">
+         <p class="titleText">Projects:</p>
+       </div>
+       
+       <div class="projects">
+        <p class="infoText">
+          Ground-Up:
+        </p>
+        <p class="infoText">
+          https://github.com/jmrada14/Ground-up |
+          https://ground-up-1.herokuapp.com/
+        </p>
+        <p class="infoText">
+          mern Stack Application which provides users with local politicians’
+          voting records on 20 environmental bills, alongside a member section
+          with updated contact information (including social media) of 500+
+          congress members. Responsible for idea, front-end/ styling and
+          informative content of application.
+        </p>
+        <br />
+        <p class="infoText">Bar Finder:</p>
+        <p class="infoText">
+          https://github.com/FayeLinks/Project1 |
+          https://fayelinks.github.io/Project1/</p> 
+          <p class="infoText">Front-End Application powered by
+          Google Maps API. Application takes users’ location and makes AJAX
+          calls for bars in clients’ area. Bars are appended to a table and
+          separated by pricing and reviews via Yelp API. Responsible for idea
+          and front-end/styling of application.
+        </p>
+        <br />
+        <p class="infoText">KarmaZone:</p>
+        <p class="infoText">
+          https://github.com/jcardenas0917/KarmaZone |
+          https://guarded-fjord-14593.herokuapp.com/ </p>
+          <p class="infoText">Full Stack Application
+          powered by HTML/CSS/Bootstrap/JavaScript/jQuery/NodeJS/Express/MySQL.
+          Responsible for front-end/styling of application, input forms, and
+          validating pop-ups/modals.
+        </p>
+       </div>
+       
+       <div class="education">
+        <p class="infoText">EDUCATION:</p>
+          <p class="infoText">Bootcamp Certificate: UCF. Orlando, FL. 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.</p>
+          <p class="infoText">Bachelor’s Degree: Rollins College. Winter Park, FL. Acquired a degree in English Literature with a focus on writing, both professionally and creatively.</p>
+       </div>
+       
+       <div class="footer">
+        <i class="fa fa-cog fa-4x fa-spin" aria-hidden="true"></i>
+       </div>
+   
+
+
+.container > div {
+    border: 1px solid black;
+}
+
+.container > div.header {
+    font-size: 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container > div.nav {
+    font-size: 26px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1 1 95px;
+}
+
+.container > div.summary {
+    display: flex;
+    flex: 1 1 150px;
+    align-items: flex-start;   
+}
+
+.container > div.skills {
+    display: flex;
+    flex: 1 1 150px;
+    justify-content: flex-start;
+}
+
+.container > div.projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.container > div.footer {
+    display: flex;
+    flex: 1 1 150px;
+    justify-content: center;
+}

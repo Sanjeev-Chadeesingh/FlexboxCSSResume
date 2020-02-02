@@ -7,52 +7,25 @@ html {
 }
 
 .container {
+    width: 100%;
+    padding: 15px;
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.container > div {
+.header {
+    padding: 10px;
+    margin: 10px;
     border: 1px solid black;
 }
 
-.container > div.header {
-    font-size: 32px;
-    display: flex;
-    justify-content: space-evenly;
+.nav {
+    padding: 10px;
+    /* margin: 10px; */
+    border: 1px solid black;
 }
-
-.container > div.nav {
-    font-size: 26px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex: 1 1 95px;
-}
-
-.container > div.summary {
-    display: flex;
-    flex: 1 1 150px;
-    align-items: flex-start;   
-}
-
-.container > div.skills {
-    display: flex;
-    flex: 1 1 150px;
-    justify-content: flex-start;
-}
-
-.container > div.projects {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-}
-
-.container > div.footer {
-    display: flex;
-    flex: 1 1 150px;
-    justify-content: center;
-}
-
 
 
 
