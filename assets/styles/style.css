@@ -22,6 +22,7 @@ html {
 
 .nav {
     padding: 10px;
+    margin: 10px;
     border: 1px solid black;
 }
 
@@ -33,7 +34,20 @@ html {
 
 .skills {
     padding: 10px;
+    margin: 10px;
     border: 1px solid black;
+}
+
+.projects {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black; 
+}
+
+.education {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black; 
 }
 
 
