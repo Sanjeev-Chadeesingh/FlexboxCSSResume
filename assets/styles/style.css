@@ -88,3 +88,40 @@ i {
         align-items: flex-start;
     }
  }
+
+ @media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+        display: flex;
+        flex-flow: nowrap column;
+        align-items: center;
+    }
+    
+    .linkText {
+        font-family: 'IM Fell DW Pica SC', serif; 
+        font-size: 14px;
+     }
+     
+     .titleText {
+        font-family: 'IM Fell DW Pica SC', serif;
+        font-size: 14px;
+    }
+    
+    .headingText {
+        font-family: 'IM Fell DW Pica SC', serif;
+        font-size: 14px;  
+    }
+    
+    .contactText {
+        font-family: 'IM Fell DW Pica SC', serif; 
+        letter-spacing: .1em;
+        font-size: 14px; 
+    }
+
+    .infoText {
+        font-family: 'Rubik', sans-serif;
+         font-size: 14px; 
+     }
+ }
