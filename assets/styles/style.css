@@ -77,3 +77,14 @@ i {
  .linkText {
     font-family: 'IM Fell DW Pica SC', serif; 
  }
+
+ @media screen and (min-width: 640px) {
+    .container {
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+        display: flex;
+        flex-flow: nowrap column;
+        align-items: flex-start;
+    }
+ }
